@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def root():
-    return ("'Hello World' %s" % datetime.now()), 200
+    return ("'Hello World ! - second day - ' %s" % datetime.now()), 200
 
 
 if __name__ == "__main__":
